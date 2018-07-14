@@ -240,6 +240,11 @@
                    </ul>
                 </li>
                @endcan
+               <li>
+                   <a href="/labelmaker.php">
+                       <i class="fa fa-print fa-fw"></i>
+                   </a>
+               </li>
 
                @can('admin')
                @if ($snipeSettings->show_alerts_in_menu=='1')
